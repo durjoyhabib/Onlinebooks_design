@@ -1,0 +1,103 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #002B4D;
+}
+
+li {
+  float: left;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  font-size: 17px;
+  font-style: sans-serif;
+}
+
+
+
+li a img {
+  width: 17px;
+  height: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.mainbox {
+  width: 80%; 
+   margin-left: 10%
+}
+
+.mainbox .a {
+  width: 50px;
+  height: 50px;
+
+}
+
+.mainbox .box {
+   width: 16.2%;
+    float: left;
+
+    text-align: center;
+}
+
+.parent{
+  width:100%;
+
+}
+
+.computer {
+      width: 70%;
+    float: left;
+}
+
+.computer .a {
+  width: 200px;
+  height: 120px;
+}
+
+.computer .box2 {
+  width: 40%;
+    float: left;
+    text-align: left;
+    padding: 33px;
+}
+.clearfix { 
+  clear: both;
+ }
+
+.popular{
+width: 30%;
+    text-align: left;
+    float: left;
+}
+h1 {
+  text-align: left;
+}
+.popular .a {
+  width: 40px;
+  height: 40px;
+}
+
+.mainh {
+  text-align: center;
+}
